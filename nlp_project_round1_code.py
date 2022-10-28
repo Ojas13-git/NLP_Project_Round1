@@ -12,13 +12,13 @@ Here we have imported two books from (https://www.gutenberg.org/ebooks/11) and  
 
 """
 
-filename="C:\\Users\\sourabh agarwal\\Desktop\\Alice.txt"
+filename="C:\\Users\\OJAS\\Desktop\\Alice.txt"
 f = open(str(filename), 'r', encoding="utf8")
 
 T1 = f.read()
 f.close()
 
-filename="C:\\Users\\sourabh agarwal\\Desktop\\Carol.txt"
+filename="C:\\Users\\OJAS\\Desktop\\Carol.txt"
 f = open(str(filename), 'r', encoding="utf8")
 
 T2 = f.read()
